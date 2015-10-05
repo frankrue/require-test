@@ -9,9 +9,10 @@ function(
 
 		console.log('theModule loaded');
 
-		// require(['./inside'], function(insideScript) {
-		// 	console.log("hello?");
-		// });
+		require(['./inside'], function(insideScript) {
+			insideScript();
+			console.log("hello?");
+		});
 
 	}
 
