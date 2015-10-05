@@ -1,7 +1,7 @@
 require.config({
   paths: {
     outside: 'outside',
-    module: 'module',
+    theModule: 'theModule',
     requirejs: '../lib/requirejs/require'
   }
 });

@@ -1,10 +1,10 @@
 require([
-	'module'
+	'theModule'
 ],function(
-	Module
+	TheModule
 ){
 
 	console.log('outside loaded');
-	var m = new Module();
+	var m = new TheModule();
 
 });

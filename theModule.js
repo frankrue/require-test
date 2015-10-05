@@ -7,7 +7,7 @@ function(
 
 	function TheModule() {
 
-		console.log('module loaded');
+		console.log('theModule loaded');
 
 		// require(['./inside'], function(insideScript) {
 		// 	console.log("hello?");
